@@ -1,0 +1,13 @@
+public class TestClass5026211133 {
+
+    public static void main(String[] args) {
+        ComputeMethods5026211133 celcius = new ComputeMethods5026211133();
+
+        //Celcius to Fahrenheit
+        System.out.println("The celcius temperature is " +celcius.fToC(100.4));
+        //Hypotenuse
+        System.out.println("The Hypotenuse is " + celcius.hypotenuse(6, 8));
+        //Dice
+        System.out.println("The sum of The Dice values is " + celcius.roll());
+    }
+}
