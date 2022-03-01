@@ -1,0 +1,21 @@
+import java.util.*;
+
+public class ProcessAName5026211133 {
+
+    public static void main(String[] args) {
+
+        Scanner scan =  new Scanner(System.in);
+
+        System.out.print("Please enter your name: ");
+        String name = scan.nextLine();
+
+        String[] word = name.split(" ");
+        String forename = word[0];
+        String surename = word[1];
+
+        String firstname = forename.substring(0,1);
+
+
+        System.out.print("Your name is: " + surename + ", " + firstname);
+    }
+}
